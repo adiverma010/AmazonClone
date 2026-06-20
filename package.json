@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "npm exec vite build",
-    "dev": "npm exec vite"
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "dev": "node ./node_modules/vite/bin/vite.js"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
